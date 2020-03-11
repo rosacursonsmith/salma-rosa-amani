@@ -1,0 +1,403 @@
+body{ font-family: Oswald, sans-serif
+    font-size 100px;
+    line-height: 1.5;
+padding: 0;
+margin: 0;
+background-color: ghostwhite;
+text-align: center;
+ }
+
+/*Global-(can be put anywhere)*/
+.logo{
+    width: 100px;
+    padding: 0 20px 0 20px
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Header**/
+header{
+    background:white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    min-height: 70px;
+    border-bottom:black;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+
+
+header li {
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+    
+}
+
+header #branding{
+    float: center;
+}
+
+header #branding h1{
+    margin: 0;
+    float: none;
+}
+
+header nav{
+    float: center;
+    margin-top: 10px;
+    font-family: Oswald, sans-serif;
+    font-weight: 800;
+}
+
+  header a:hover{
+      color:red; 
+      font-weight: bold;
+}
+
+/* showcase */
+
+#showcase{
+    min-height: 400px;
+    background:url('../images/underground.jpg') no-repeat 0 -600px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: black;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-family: Oswald, sans-serif;
+}
+
+#showcase p{
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+}
+/*newsletter*/
+#newsletter{ 
+    padding:15px;
+    color: black;
+    background: white;
+}
+
+#newsletter h1{ 
+  float: center; 
+  font-size: 20px; 
+    
+}
+
+#newsletter form 
+    
+ 
+
+#newsletter input[type= "email"]{
+    padding:4px;
+    height: 25px;
+    width: 250px;
+}
+/*social*/
+
+
+.media {
+    float: right;
+  
+    
+   
+}
+#social li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: black;
+    
+   
+    transition: .5s;
+
+    
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+/*home page */
+#homepara {
+    background:white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    min-height: 70px;
+    font-family:Archivo Black, sans-serif ;
+    font-weight: 600;
+    border: red;
+    
+}
+#title-span {
+    background-color: white;
+}
+#tag-span {
+    background-color: white;
+}
+
+/*travel page */
+.travelBox { 
+    background-color: rgb(228, 207, 223);
+    border: solid rgb(35, 39, 54) 2px;
+    margin: 45px;
+    padding: 40px;
+    font-family: oswald, sans-serif;
+
+}
+#travelform {
+    text-align: center;
+}
+
+.map img:hover {
+    transform: scale(1.05);
+}
+
+#travelShowcase {
+    min-height: 400px;
+    background:url('../images/london.jpg') no-repeat 0 -600px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: black;
+}
+
+#travelShowcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-family: Oswald, sans-serif;
+}}
+
+
+/*Forum */
+.conversation-wrap
+{
+    box-shadow: -2px 0 3px #ddd;
+    padding:0;
+    max-height: 400px;
+    overflow: auto;
+}
+.conversation
+{
+    padding:5px;
+    border-bottom:1px solid #ddd;
+    margin:0;
+
+}
+
+.message-wrap
+{
+    box-shadow: 0 0 3px #ddd;
+    padding:0;
+
+}
+.msg
+{
+    padding:5px;
+    /*border-bottom:1px solid #ddd;*/
+    margin:0;
+}
+.msg-wrap
+{
+    padding:10px;
+    max-height: 400px;
+    overflow: auto;
+
+}
+
+.time
+{
+    color:red;
+}
+
+.send-wrap
+{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding:10px;
+    /*background: #f8f8f8;*/
+}
+
+.send-message
+{
+    resize: none;
+}
+
+.highlight
+{
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+.send-message-btn
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-bottom-right-radius: 0;
+}
+.btn-panel
+{
+    background: #f7f7f9;
+}
+
+.btn-panel .btn
+{
+    color:#b8b8b8;
+
+    transition: 0.2s all ease-in-out;
+}
+
+.btn-panel .btn:hover
+{
+    color: red;
+    background: #f8f8f8;
+}
+.btn-panel .btn:active
+{
+    background: #f8f8f8;
+    box-shadow: 0 0 1px #ddd;
+}
+
+.btn-panel-conversation .btn,.btn-panel-msg .btn
+{
+
+    background: #f8f8f8;
+}
+.btn-panel-conversation .btn:first-child
+{
+    border-right: 1px solid #ddd;
+}
+
+.msg-wrap .media-heading
+{
+    color: red;
+    font-weight: 700;
+}
+
+
+.msg-date
+{
+    background: none;
+    text-align: center;
+    color:grey;
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+::-webkit-scrollbar-thumb {
+    background:#ddd; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #ddd; 
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    color:black;
+    font-family: sans-serif;
+    overflow: hidden; 
+    border-right: .5 solid black; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+   @keyframes blink-caret{
+       from,to {border-color:transparent}
+    
+
+   }
+  
+    
+
+  /*About Page*/
+  #about{
+    min-height:300px;
+    background:url('../images/paul2.jpg') no-repeat 0 -700px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;}
+    
+   
+    #about h2{
+        margin-top: 100px;
+        font-size: 55px;
+        margin-bottom: 10px;
+        font-family: Oswald, sans-serif;
+        color: white;
+    }
+    
+
+  
+
+  #info  {
+      font-family: oswald, sans-serif;
+      
+  }
+  
